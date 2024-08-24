@@ -26,9 +26,6 @@ rm -rf $COMPONENT/config
 rm -rf $COMPONENT/apex_fs
 rm -rf $COMPONENT/lib_fs
 rm -rf ./extract
-true > ./1.sh
-true > ./2.sh
-true > ./3.sh
 find ./ -type f -name '*.pyc' -delete
 find ./ -type f -name '*.bak' -delete
 find ./ -type f -name '*.ozip' -delete
